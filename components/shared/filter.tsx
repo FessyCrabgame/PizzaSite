@@ -21,17 +21,6 @@ export const Filter: React.FC<Props> = ({className}) => {
 
     return(
         <div className="mt-9 ml-16 max-w-[230px]">   
-            <p className="mb-8 text-2xl font-bold">Фильтрация</p>
-            <div>
-                <div className="flex gap-3 items-center mb-4">
-                    <Checkbox />
-                    <p className="text-base">Можно собирать</p>
-                </div>
-                <div className="flex gap-3 items-center pb-6 border-b">
-                    <Checkbox />
-                    <p className="text-base">Новинки</p>
-                </div>
-            </div>
             <div className="mt-6">
                 <p className="text-2xl font-bold">Цена от и до:</p>
                 <div className="flex gap-4 mt-4 border-b pb-6">

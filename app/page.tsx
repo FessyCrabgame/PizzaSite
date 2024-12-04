@@ -1,9 +1,7 @@
-import { Catalog, Header } from '../components/shared'
+import { Catalog } from '../components/shared'
 
 export default function Home() {
   return (
-    <div>
       <Catalog />
-    </div>
   );
 }

@@ -21,7 +21,7 @@ export const Catalog: React.FC<Props> = ({className}) =>{
     const categoryACtiveId = useCategoryStore((state) => state.activeId)
 
     return(
-        <main className={cn('', className)}>
+        <main className={cn('h-[100vh]', className)}>
             <div className="flex justify-between items-end bg-white w-[100%] shadow-lg py-[40px] sticky top-0 z-10">
                 <div className=" flex justify-between items-end w-[100%]  ">
                     <div>

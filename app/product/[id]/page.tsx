@@ -1,5 +1,12 @@
-export default function ProductPage({params: {id}}: {params:{id:string}}){
+'use client'
+
+import { products } from "@/components/shared/constants/pizzas"
+import { ProductPage} from '../../../components/shared'
+
+export default function ProdactUrl({params: {id}}: {params:{id:string}}){
     return(
-        <p>Product{id}</p>
+        <div>
+            <ProductPage id={Number(id)}/>
+        </div>
     )
 }
